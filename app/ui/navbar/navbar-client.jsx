@@ -1,25 +1,14 @@
 'use client'
 
 import Link from "next/link";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Image from "next/image";
 import bassLogo from '../../../public/bass_logo_1_hvid.png'
+import { FaInstagram, FaSoundcloud, FaYoutube, FaTiktok } from 'react-icons/fa';
+
 
 export default function NavbarClient({ children }) {
     const [navbar, setNavbar] = useState( false );
-    const [color, setColor] = useState( false );
-
-    useEffect(() => {
-        const changeBackground = () => {
-            if (window.scrollY >= 80) {
-                setColor( true );
-            } else {
-                setColor( false );
-            }
-        }
-        window.addEventListener('scroll', changeBackground);
-    })
-    
 
     return (
     <> 
@@ -39,23 +28,46 @@ export default function NavbarClient({ children }) {
             }
         </button>
 
-        <header className={`fixed top-0 left-0 w-full z-20 drop-shadow-lg 
-            ${color ? 'bg-gray-800' : 'bg-transparent'}    
-        `}>
+        <header className={"fixed top-[-8px] left-0 w-full z-20 drop-shadow-lg"}>
 
             <nav className={`text-white flex justify-between m-0 ${navbar ? 'flex-col' :'flex-row'}`}>
-                <Link href="/">
-                    <span>
-                        <Image src={bassLogo} width="140" height="100" />                        
-                    </span>
-                </Link>   
+                <ul className="flex flex-row mt-1 md:mt-0">
+                    <Link href="/">
+                        <span>
+                            <Image src={bassLogo} width="140" height="100" alt="DJ BASSTIAN Dj Basstian Logo djbasstian-logo" />                        
+                        </span>
+                    </Link>   
+                    <ul className={"hidden md:flex flex-col ml-10 text-[16px] md:flex-row gap-9 items-center"}> 
+                        { children } 
+                    </ul>
+                </ul>
+
                 
                 <ul className={`md:hidden md:ml-[-1rem] mt-0 flex flex-col w-screen justify-center h-[90vh] bg-[hsla(0,0%,100%,.95)] text-gray-700   00 font-medium text-[26px] md:flex-row gap-9 items-center ${navbar ? 'flex' : 'hidden'}`}>
                     { children }
                 </ul>
 
-                <ul className={`hidden md:flex flex-col mr-0 md:mr-2 text-[16px] md:flex-row gap-9 items-center`}>
-                    { children }
+                <ul className={`hidden md:flex flex-col mr-6 text-[16px] md:flex-row gap-1 items-center`}>
+                    <li className="ml-2">
+                        <button className="inline text-light hover:text-[#6b72ff] text-xl sm:text-lg">
+                            <Link href="https://www.instagram.com/dj_basstian/" target="_blank"> <FaInstagram /> </Link>
+                        </button>
+                    </li>
+                    <li className="ml-2">
+                        <button className="inline text-light hover:text-[#6b72ff] text-xl sm:text-lg">
+                            <Link href="https://soundcloud.com/bastian-nielsen-360664195" target="_blank"> <FaSoundcloud /> </Link>
+                        </button>
+                    </li>
+                    <li className="ml-2">
+                        <button className="inline text-light hover:text-[#6b72ff] text-xl sm:text-lg">
+                            <Link href="https://www.youtube.com/channel/UCFjgyN5rCfz8SNGd56Lyp3Q" target="_blank"> <FaYoutube /> </Link>
+                        </button>
+                    </li>
+                    <li className="ml-2">
+                        <button className="inline text-light hover:text-[#6b72ff] text-xl sm:text-lg">
+                            <Link href="https://www.tiktok.com/@dj_basstian" target="_blank"> <FaTiktok /> </Link>
+                        </button>
+                    </li>
                 </ul>
            </nav>
         </header>
