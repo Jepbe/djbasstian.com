@@ -10,9 +10,10 @@ export default async function NavbarServer() {
         <>
             {/* {session ?<li className="drop-shadow"> <Link href="/member">member</Link></li> : <li className="hidden"></li>} */}
             {/* {session ?<li className="drop-shadow"> <Link href="/dashboard">dashboard</Link></li> : <li className="hidden"></li>} */}
-            <li className="drop-shaddow">Hold</li>
-            <li className="drop-shaddow"><Link href="./about">Hvem er vi?</Link></li>
-            <li className="drop-shaddow"><Link href="../../#kontakt">Kontakt</Link></li>    
+            <li className="drop-shaddow"><Link href="https://www.nexusevent.dk/nexusevent/faa-et-tilbud/">Book</Link></li>
+            <li className="drop-shaddow"><Link href="./about">SoMe</Link></li>
+            <li className="drop-shaddow"><Link href="../../#kontakt">Find Mig Her</Link></li>   
+            <li className="drop-shaddow"><Link href="https://djbasstian.sportyfied.com/da">Merch</Link></li>    
             {/* {session ? <button className="bg-gray-800 rounded text-white px-3 py-1"><Link href="/api/auth/signout?callbackUrl=/">Log ud</Link></button> : <button className="bg-gray-800 rounded text-white px-3 py-1"><Link href="/api/auth/signin/">Log in</Link></button> } */}
         </>
     );
