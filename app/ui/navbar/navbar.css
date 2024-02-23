@@ -1,0 +1,13 @@
+
+.navbar-links {
+    box-shadow: inset 0 0 0 0 #e8e8e8;
+    color: #e8e8e8;
+    padding: 0 .25rem;
+    transition: color .4s ease-in-out, box-shadow .4s ease-in-out;
+  }
+  
+  .navbar-links:hover {
+    box-shadow: inset 155px 0 0 0 #e8e8e8;
+    color: #032d61;
+  }
+  

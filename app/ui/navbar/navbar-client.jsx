@@ -50,22 +50,22 @@ export default function NavbarClient({ children }) {
                 <ul className={`hidden md:flex flex-col mr-6 text-[16px] md:flex-row gap-1 items-center`}>
                     <li className="ml-2">
                         <button className="inline text-light hover:text-[#6b72ff] text-xl sm:text-lg">
-                            <Link href="https://www.instagram.com/dj_basstian/" target="_blank"> <FaInstagram /> </Link>
+                            <Link href="https://www.instagram.com/dj_basstian/" target="_blank"> <FaInstagram className="drop-shadow-sm" /> </Link>
                         </button>
                     </li>
                     <li className="ml-2">
                         <button className="inline text-light hover:text-[#6b72ff] text-xl sm:text-lg">
-                            <Link href="https://soundcloud.com/bastian-nielsen-360664195" target="_blank"> <FaSoundcloud /> </Link>
+                            <Link href="https://soundcloud.com/bastian-nielsen-360664195" target="_blank"> <FaSoundcloud className="drop-shadow-sm" /> </Link>
                         </button>
                     </li>
                     <li className="ml-2">
                         <button className="inline text-light hover:text-[#6b72ff] text-xl sm:text-lg">
-                            <Link href="https://www.youtube.com/channel/UCFjgyN5rCfz8SNGd56Lyp3Q" target="_blank"> <FaYoutube /> </Link>
+                            <Link href="https://www.youtube.com/channel/UCFjgyN5rCfz8SNGd56Lyp3Q" target="_blank"> <FaYoutube className="drop-shadow-sm" /> </Link>
                         </button>
                     </li>
                     <li className="ml-2">
                         <button className="inline text-light hover:text-[#6b72ff] text-xl sm:text-lg">
-                            <Link href="https://www.tiktok.com/@dj_basstian" target="_blank"> <FaTiktok /> </Link>
+                            <Link href="https://www.tiktok.com/@dj_basstian" target="_blank"> <FaTiktok className="drop-shadow-sm" /> </Link>
                         </button>
                     </li>
                 </ul>

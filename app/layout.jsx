@@ -1,14 +1,17 @@
 import './ui/globals.css';
-import { Inter } from 'next/font/google'
+import { Ubuntu } from 'next/font/google'
 
 
-const inter = Inter({ subsets: ['latin'] })
+const ubuntu = Ubuntu({
+  weight: '500',
+  subsets: ['latin'],
+})
 
 export default function DashboardLayout({ children }) {
 
   return ( 
     <html lang="en">
-      <body className={`${inter.className} antialiased`}>{children}</body>
+      <body className={`${ubuntu.className} antialiased`}>{children}</body>
     </html> 
     );
 }

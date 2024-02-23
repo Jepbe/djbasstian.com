@@ -3,6 +3,7 @@ import NavbarServer from './ui/navbar/navbar-server'
 import NavbarClient from './ui/navbar/navbar-client'
 import Head from 'next/head'
 import Link from 'next/link'
+import './ui/home/homeBtn.css'
 
 
 export default function Page() {
@@ -28,10 +29,10 @@ export default function Page() {
     <main>
       <div className='w-screen h-screen mainBG flex justify-center items-center'>
           <div className='z-10 text-white'>
-            <h1 className='text-[#032d61] text-4xl text-center font-semibold drop-shadow-sm '>DJ TIL DIN NÆSTE FEST!</h1>
-            <div className='flex justify-center items-center flex-col sm:flex-row'>
-              <Link href="https://www.nexusevent.dk/nexusevent/faa-et-tilbud"><button >BOOK</button></Link>  
-              <Link href=""><button>MERCH</button></Link>  
+            <h1 className='text-[#032d61] text-4xl text-center font-semibold drop-shadow-sm px-4'>DJ TIL DIN NÆSTE FEST!</h1>
+            <div className='flex justify-center items-center flex-col sm:flex-row mt-5'>
+              <Link href="https://www.nexusevent.dk/nexusevent/faa-et-tilbud"><button className='button-50 mx-0 sm:mx-3 my-3 sm:my-0' >BOOK</button></Link>  
+              <Link href=""><button className='button-50 mx-0 sm:mx-3 my-3 sm:my-0'>MERCH</button></Link>  
             </div>
           </div>  
       </div>
