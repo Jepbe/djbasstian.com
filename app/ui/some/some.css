@@ -56,11 +56,12 @@
   width: 100%;
 }
 
-/* @media screen and (max-width: 525px) {
-  .someBg {
-    background-image: url(../../../public/bg2.jpeg);
-    background-size: cover;
-    background-position-x: -120px;
-    background-repeat: no-repeat
-  }  
-}  */
+.someHeader {
+  -webkit-text-stroke: 0.5px #434445;
+}
+
+
+
+
+
+

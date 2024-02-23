@@ -15,8 +15,8 @@ export default function Page() {
         
     <main className='w-screen h-screen someBg flex justify-center items-center overflow-y-scroll'>
 
-        <div className='sm:h-[50vh] h-[60vh] mb-40 sm:mb-0 rounded-2xl sm:bg-[hsla(0,0%,100%,.94)] p-10'>
-        <h1 className='sm:text-black text-white sm:drop-shadow-none drop-shadow-md text-3xl text-center font-medium mb-10'>DJ BASStians Sociale Medier</h1>
+        <div className='sm:h-[50vh] h-[60vh] mb-40 sm:mb-0 rounded-2xl p-10'>
+        <h1 className='text-white someHeader text-3xl text-center font-medium mb-10'>DJ BASStians Sociale Medier</h1>
 
             <div className='sm:w-[650px] w-[100%] grid md:grid-cols-2 grid-cols-1 grid-rows-4 gap-5 '>
                 

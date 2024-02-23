@@ -13,7 +13,6 @@ export default async function NavbarServer() {
             <li className="drop-shaddow navbar-links"><Link href="/">Hjem</Link></li>
             <li className="drop-shaddow navbar-links"><Link href="https://www.nexusevent.dk/nexusevent/faa-et-tilbud/">Book</Link></li>
             <li className="drop-shaddow navbar-links"><Link href="./some">SoMe</Link></li>
-            <li className="drop-shaddow navbar-links"><Link href="../../#kontakt">Find Mig Her</Link></li>   
             <li className="drop-shaddow navbar-links"><Link href="https://djbasstian.sportyfied.com/da">Merch</Link></li>    
             {/* {session ? <button className="bg-gray-800 rounded text-white px-3 py-1"><Link href="/api/auth/signout?callbackUrl=/">Log ud</Link></button> : <button className="bg-gray-800 rounded text-white px-3 py-1"><Link href="/api/auth/signin/">Log in</Link></button> } */}
         </>
