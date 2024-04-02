@@ -11,7 +11,7 @@ export const metadata = {
   title: "DJ BASStian - Dj til din næste fest!",
   description: "DJ BASStian, DJ Vestsjælland, DJ bastian, DJBASSTIAN",
   icons: {
-    icon: '../public/favicon.ico'
+    icon: '/BASS64x64.ico'
   }  
 };
 
