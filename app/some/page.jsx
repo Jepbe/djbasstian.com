@@ -1,6 +1,8 @@
 import NavbarServer from '../ui/navbar/navbar-server'
 import NavbarClient from '../ui/navbar/navbar-client'
 import '../ui/some/some.css'
+import Link from 'next/link';
+
 
 import { FaInstagram, FaSoundcloud, FaYoutube, FaTiktok, FaSnapchat } from 'react-icons/fa';
 
@@ -19,7 +21,7 @@ export default function Page() {
         <h1 className='text-white text-3xl text-center font-medium mb-10'>DJ BASStians Sociale Medier</h1>
 
             <div className='sm:w-[650px] w-[100%] grid md:grid-cols-2 grid-cols-1 grid-rows-4 gap-5 '>
-                
+                <Link href="https://www.youtube.com/@dj_basstian" >
                 <div className='h-[80px] rounded-xl bg-white px-4 flex items-center slimBorder cardSpecialProp cardSpecialPropHover cursor-pointer'>
                     <div className='w-[100%] flex flex-row items-center'>
                         <div className='w-[46px] h-[46px] min-w-[46px] bg-[#ff0000] rounded-full ytShaddow flex justify-center items-center'>
@@ -28,7 +30,9 @@ export default function Page() {
                         <h3 className='ml-3 font-medium text-[20px]'>YouTube</h3>
                     </div>
                 </div>
+                </Link>
 
+                <Link href="https://www.tiktok.com/@dj_basstian">
                 <div className='h-[80px] rounded-xl bg-white px-4 flex items-center slimBorder cardSpecialProp cardSpecialPropHover cursor-pointer'>
                     <div className='w-[100%] flex flex-row items-center'>
                         <div className='w-[46px] h-[46px] min-w-[46px] bg-[#000000] rounded-full tiktokShaddow flex justify-center items-center'>
@@ -37,7 +41,9 @@ export default function Page() {
                         <h3 className='ml-3 font-medium text-[20px]'>TikTok</h3>
                     </div>
                 </div>
+                </Link>
                 
+                <Link href="https://soundcloud.com/bastian-nielsen-360664195">
                 <div className='h-[80px] rounded-xl bg-white px-4 flex items-center slimBorder cardSpecialProp cardSpecialPropHover cursor-pointer'>
                     <div className='w-[100%] flex flex-row items-center'>
                         <div className='w-[46px] h-[46px] min-w-[46px] bg-[#f75610] rounded-full soundcloudShaddow flex justify-center items-center'>
@@ -46,7 +52,9 @@ export default function Page() {
                         <h3 className='ml-3 font-medium text-[20px]'>SoundCloud</h3>
                     </div>
                 </div>
+                </Link>
 
+                <Link href="https://www.instagram.com/dj_basstian/">
                 <div className='h-[80px] rounded-xl bg-white px-4 flex items-center slimBorder cardSpecialProp cardSpecialPropHover cursor-pointer'>
                     <div className='w-[100%] flex flex-row items-center'>
                         <div className='w-[46px] h-[46px] min-w-[46px] instagramBG rounded-full instagramShaddow flex justify-center items-center'>
@@ -55,7 +63,9 @@ export default function Page() {
                         <h3 className='ml-3 font-medium text-[20px]'>Instagram</h3>
                     </div>
                 </div>
+                </Link>
 
+                <Link href="https://www.snapchat.com/add/djbas_offentlig?share_id=aZvfuCxHIsI&locale=da-DK">
                 <div className='h-[80px] rounded-xl bg-white px-4 flex items-center slimBorder cardSpecialProp cardSpecialPropHover cursor-pointer'>
                     <div className='w-[100%] flex flex-row items-center'>
                         <div className='w-[46px] h-[46px] min-w-[46px] bg-[#f7f400] rounded-full snapchatShaddow flex justify-center items-center'>
@@ -64,6 +74,7 @@ export default function Page() {
                         <h3 className='ml-3 font-medium text-[20px]'>Snapchat</h3>
                     </div>
                 </div>
+                </Link>
 
                 {/* <div className='slimBorder rounded-xl bg-white px-4'><h3 className='ml-3 font-medium text-[20px]'>KOMEMR SNART</h3></div> */}
             </div>
