@@ -31,7 +31,7 @@ export default function NavbarClient({ children }) {
         <header className={"fixed top-[-8px] left-0 w-full z-20 drop-shadow-lg"}>
 
             <nav className={`text-white flex justify-between m-0 ${navbar ? 'flex-col' :'flex-row'}`}>
-                <ul className="flex flex-row mt-1 md:mt-0">
+                <ul className="flex flex-row mt-2 md:mt-0">
                     <Link href="/">
                         <span>
                             <Image src={bassLogo} width="140" height="100" alt="DJ BASSTIAN Dj Basstian Logo djbasstian-logo" />                        
@@ -60,7 +60,7 @@ export default function NavbarClient({ children }) {
                     </li>
                     <li className="ml-2">
                         <button className="inline text-light hover:text-[#6b72ff] text-xl sm:text-lg">
-                            <Link href="https://www.youtube.com/channel/UCFjgyN5rCfz8SNGd56Lyp3Q" target="_blank"> <FaYoutube className="drop-shadow-sm" /> </Link>
+                            <Link href="https://www.youtube.com/@dj_basstian" target="_blank"> <FaYoutube className="drop-shadow-sm" /> </Link>
                         </button>
                     </li>
                     <li className="ml-2">
