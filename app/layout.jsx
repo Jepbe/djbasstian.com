@@ -2,14 +2,14 @@ import './ui/globals.css';
 import { Ubuntu } from 'next/font/google'
 
 const ubuntu = Ubuntu({
-  weight: '500',
+  weight: ['300', '400', '500', '700'],
   subsets: ['latin'],
 })
 
 
 export const metadata = {
   title: "DJ BASStian - Dj til din næste fest!",
-  description: "DJ BASStian DJ bastian DJBASSTIAN",
+  description: "DJ BASStian, DJ Vestsjælland, DJ bastian, DJBASSTIAN",
   icons: {
     icon: '../public/favicon.ico'
   }  
