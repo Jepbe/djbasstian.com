@@ -4,7 +4,7 @@ import './homeBtn.css'
 export default function customerReviews() {
     return (
         <div className="h-screen flex sm:flex-row flex-col justify-center items-center text-black">
-            <div className="p-10 cardBg m-2 rounded-sm max-w-sm">
+            <div className="p-5 sm:p-10 cardBg m-2 rounded-sm max-w-sm">
                 <div className="flex ">
                     <div>
                         <Image 
@@ -31,7 +31,7 @@ export default function customerReviews() {
                 </div>
             </div>
 
-            <div className="p-10 cardBg m-2 rounded-sm max-w-sm">
+            <div className="p-5 sm:p-10 cardBg m-2 rounded-sm max-w-sm">
                 <div className="flex ">
                     <div>
                         <Image 
@@ -57,7 +57,7 @@ export default function customerReviews() {
                     
                 </div>
             </div>
-            <div className="p-10 cardBg m-2 rounded-sm max-w-sm">
+            <div className="p-5 sm:p-10 cardBg m-2 rounded-sm max-w-sm">
                 <div className="flex ">
                     <div>
                         <Image 

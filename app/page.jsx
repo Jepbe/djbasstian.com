@@ -20,7 +20,7 @@ export default function Page() {
           content='https://djbasstian-tailwind-next-n.vercel.app/api/og'
         />
 
-        <link rel="icon" href="../public/BASS64x64Hvid.ico"/>
+        <link rel="icon" href="/BASS64x64Hvid.ico" />
       </Head>
 
     {/* Navbar */}
@@ -30,7 +30,7 @@ export default function Page() {
   
   
   
-    <main>
+    <main className='h-screen'>
       <div className='w-screen h-screen mainBG flex justify-center items-center'>
           <div className='z-10 text-white'>
             <h1 className='text-white text-4xl text-center font-semibold drop-shadow-sm px-4'>DJ TIL DIN NÆSTE FEST?</h1>
