@@ -3,8 +3,8 @@ import './homeBtn.css'
 
 export default function customerReviews() {
     return (
-        <div className="h-screen flex sm:flex-row flex-col justify-center items-center text-black">
-            <div className="p-5 sm:p-10 cardBg m-2 rounded-sm max-w-sm">
+        <div className="h-screen flex sm:flex-row flex-col justify-center items-center text-[#ffff]">
+            <div className="py-2 px-3 sm:p-10 cardBg m-2 rounded-sm max-w-sm">
                 <div className="flex ">
                     <div>
                         <Image 
@@ -12,7 +12,7 @@ export default function customerReviews() {
                             width={100} 
                             height={100} 
                             alt=""
-                            className="rounded-full"
+                            className="rounded-full w-20 sm:w-[100px]"
                             />
                     </div>
                     <div className="flex items-center">
@@ -31,7 +31,7 @@ export default function customerReviews() {
                 </div>
             </div>
 
-            <div className="p-5 sm:p-10 cardBg m-2 rounded-sm max-w-sm">
+            <div className="py-2 px-3 sm:p-10 cardBg m-2 rounded-sm max-w-sm">
                 <div className="flex ">
                     <div>
                         <Image 
@@ -39,7 +39,7 @@ export default function customerReviews() {
                             width={100} 
                             height={100} 
                             alt=""
-                            className="rounded-full"
+                            className="rounded-full w-20 sm:w-[100px]"
                             />
                     </div>
                     <div className="flex items-center">
@@ -57,7 +57,7 @@ export default function customerReviews() {
                     
                 </div>
             </div>
-            <div className="p-5 sm:p-10 cardBg m-2 rounded-sm max-w-sm">
+            <div className="py-2 px-3 sm:p-10 cardBg m-2 rounded-sm max-w-sm">
                 <div className="flex ">
                     <div>
                         <Image 
@@ -65,7 +65,7 @@ export default function customerReviews() {
                             width={100} 
                             height={100} 
                             alt=""
-                            className="rounded-full"
+                            className="rounded-full w-20 sm:w-[100px]"
                             />
                     </div>
                     <div className="flex items-center">
