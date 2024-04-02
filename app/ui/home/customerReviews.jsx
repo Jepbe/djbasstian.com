@@ -24,7 +24,7 @@ export default function customerReviews() {
                 </div>
                 <div className="mt-4">
                     <p className="font-thin">
-                        <strong className="font-bold">"Lorem, ipsum dolor sit amet consectetur adipisic elit." </strong> 
+                        <strong className="font-bold">Lorem, ipsum dolor sit amet consectetur adipisic elit. </strong> 
                         Voluptatum maxime nemo corrupti soluta expedita eligendi nisi quos. Quisquam, voluptatem vel?
                     </p>
                     
@@ -51,7 +51,7 @@ export default function customerReviews() {
                 </div>
                 <div className="mt-4">
                     <p className="font-thin">
-                        <strong className="font-bold">"Lorem, ipsum dolor sit amet consectetur adipisic elit." </strong> 
+                        <strong className="font-bold">Lorem, ipsum dolor sit amet consectetur adipisic elit. </strong> 
                         Voluptatum maxime nemo corrupti soluta expedita eligendi nisi quos. Quisquam, voluptatem vel?
                     </p>
                     
@@ -77,7 +77,7 @@ export default function customerReviews() {
                 </div>
                 <div className="mt-4">
                     <p className="font-thin">
-                        <strong className="font-bold">"Lorem, ipsum dolor sit amet consectetur adipisic elit." </strong> 
+                        <strong className="font-bold">Lorem, ipsum dolor sit amet consectetur adipisic elit. </strong> 
                         Voluptatum maxime nemo corrupti soluta expedita eligendi nisi quos. Quisquam, voluptatem vel?
                     </p>
                 </div>
