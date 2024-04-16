@@ -44,7 +44,7 @@ export default function NavbarClient({ children }) {
 
         <header className={`${color ? 'bg-gray-400' : 'bg-transparent'} fixed top-[-8px] left-0 w-full z-20 drop-shadow-lg`}>
 
-            <nav className={`text-white flex items-center justify-between m-0 ${navbar ? 'flex-col' :'flex-row'}`}>
+            <nav className={`text-white flex  justify-between m-0 ${navbar ? 'flex-col' :'flex-row'}`}>
                 <ul className="flex flex-row mt-4 md:mt-0">
                     <Link href="/">
                         <span>
