@@ -13,7 +13,7 @@ export default function customerReviews() {
                             height={100} 
                             alt=""
                             className="rounded-full w-20 sm:w-[100px]"
-                            />
+                            />  
                     </div>
                     <div className="flex items-center">
                         <ul className="ml-4">

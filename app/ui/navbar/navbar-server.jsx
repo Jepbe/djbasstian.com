@@ -11,7 +11,7 @@ export default async function NavbarServer() {
             {/* {session ?<li className="drop-shadow"> <Link href="/member">member</Link></li> : <li className="hidden"></li>} */}
             {/* {session ?<li className="drop-shadow"> <Link href="/dashboard">dashboard</Link></li> : <li className="hidden"></li>} */}
             <li className="drop-shaddow navbar-links font-bold"><Link href="/">Hjem</Link></li>
-            <li className="drop-shaddow navbar-links font-bold"><Link href="https://www.instagram.com/direct/t/106879234041055">Book</Link></li>
+            <li className="drop-shaddow navbar-links font-bold"><Link href="mailto:booking@djbasstian.com">Book</Link></li>
             <li className="drop-shaddow navbar-links font-bold"><Link href="./some">SoMe</Link></li>
             <li className="drop-shaddow navbar-links font-bold"><Link href="https://djbasstian.sportyfied.com/da">Merch</Link></li>    
             <li className="drop-shaddow navbar-links font-bold"><Link href="/music">Musik</Link></li>    

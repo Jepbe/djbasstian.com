@@ -1,6 +1,11 @@
 import NavbarServer from '../ui/navbar/navbar-server'
 import NavbarClient from '../ui/navbar/navbar-client'
 
+export const metadata = {
+    title: 'DJ BASStian - Musik',
+    description: 'DJ BASStian Musik Udgivelser DJBASStian Spotify'
+
+}
 
 export default function Page() {
     return (
