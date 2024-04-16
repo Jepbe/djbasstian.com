@@ -32,7 +32,6 @@ export default function Page() {
       </div>
     </main>
     <section className='h-screen screen2Bg'>
-        {/* INSERT "KUNDERNE SIGER" */}
         <CustomerReviews />
     </section>
     
@@ -40,11 +39,11 @@ export default function Page() {
       <container className='w-screen flex justify-center items-center flex-col max-w-[650px]'>
         <div>
           <h1 className='font-medium text-3xl text-center'> Få et uforpligtende tilbud! </h1>
-          <p className='text-center'>Skal du bruge en professionel dj til din næste fest? Kontakt DJ BASStian og få et uforpligtende tilbud nu! </p>
+          <p className='text-center p-2'>Skal du bruge en professionel dj til din næste fest? Kontakt DJ BASStian og få et uforpligtende tilbud nu! </p>
         </div>
           
           <div className='mt-10'>
-          <Link href="mailto:kontakt@djbasstian.com"><button className='p-4 bg-blue-400 rounded font-bold text-white'>kontakt@djbasstian.com</button></Link>
+          <Link href="mailto:kontakt@djbasstian.com"><button className='p-4 bg-[#076eed] rounded font-bold text-white hover:bg-[#2f89f8] active:bg-[#2f89f8]'>kontakt@djbasstian.com</button></Link>
 
           </div>  
       </container>  
