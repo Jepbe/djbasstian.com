@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import NavbarServer from './ui/navbar/navbar-server'
 import NavbarClient from './ui/navbar/navbar-client'
 import Link from 'next/link'
@@ -7,18 +6,13 @@ import CustomerReviews from './ui/home/customerReviews'
 
 export default function Page() {
   return ( 
-    // TIL SEO På google business kan man se hvad der er blevet søgt på når hjemmmesiden er blevet vist.
-    // 1. dj  2. dj basstian  3. dj på vestsjælland   4. dj slagelse    5. dj vestsjælland 
-
 <>
-  
 
     {/* Navbar */}
     <NavbarClient>
       <NavbarServer />
     </NavbarClient>
-  
-  
+
   
     <main className='h-screen'>
       <div className='w-screen h-screen mainBG flex justify-center items-center'>
