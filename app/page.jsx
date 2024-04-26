@@ -7,7 +7,8 @@ import CustomerReviews from './ui/home/customerReviews'
 export default function Page() {
   return ( 
 <>
-
+    <meta name="google-site-verification" content="U10HjTEK_wSci7CA2rqQzo3BV7v1HNlSG8nsUAKWUAI" />
+    
     {/* Navbar */}
     <NavbarClient>
       <NavbarServer />
