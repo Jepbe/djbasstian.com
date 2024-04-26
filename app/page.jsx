@@ -16,8 +16,8 @@ export default function Page() {
   
     <main className='h-screen'>
       <div className='w-screen h-screen mainBG flex justify-center items-center'>
-          <div className='z-10 text-white'>
-            <h1 className='text-white text-4xl text-center font-semibold drop-shadow-sm px-4'>DJ TIL DIN NÆSTE FEST?</h1>
+          <div itemscope itemtype="https://schema.org/Service" className='z-10 text-white'>
+            <h1 itemProp='slogan' className='text-white text-4xl text-center font-semibold drop-shadow-sm px-4'>DJ TIL DIN NÆSTE FEST?</h1>
             <div className='flex justify-center items-center flex-col sm:flex-row mt-5'>
               <Link href="mailto:booking@djbasstian.com"><button className='button-50 mx-0 sm:mx-3 my-3 sm:my-0' >BOOK</button></Link>  
               <Link href="https://djbasstian.sportyfied.com/da"><button className='button-50 mx-0 sm:mx-3 my-3 sm:my-0'>MERCH</button></Link>  
