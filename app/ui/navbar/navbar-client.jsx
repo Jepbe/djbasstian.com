@@ -48,7 +48,7 @@ export default function NavbarClient({ children }) {
                 <ul className="flex flex-row mt-4 md:mt-0">
                     <Link href="/">
                         <span>
-                            <Image src={bassLogo} width={140} height={100} alt="DJ BASSTIAN Dj Basstian Logo djbasstian-logo" />                        
+                            <Image itemprop="logo" src={bassLogo} width={140} height={100} alt="DJ BASSTIAN Dj Basstian Logo djbasstian-logo" />                        
                         </span>
                     </Link>   
                     <ul className={"hidden md:flex flex-col ml-10 text-[16px] md:flex-row gap-9 items-center"}> 
