@@ -22,7 +22,7 @@ export default function customerReviews() {
                         <ul className="ml-4">
                             <li itemProp="author">Yazmin Solarz</li>
                             <li>Klubleder Ungslagelse</li>
-                            <div itemProp="reviewRating" itemScope itemtype="https://schema.org/Rating">
+                            <div itemProp="reviewRating" itemScope itemType="https://schema.org/Rating">
                                 <meta itemProp="worstRating" content="1"/>
                                 <li itemProp="ratingValue" className="flex flex-row text-orange-400 text-xl"> <IoMdStar /><IoMdStar /><IoMdStar /><IoMdStar /><IoMdStar /></li>
                                 <meta itemProp="bestRating" content="5"/>
