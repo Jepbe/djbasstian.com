@@ -13,7 +13,6 @@ export default function Page() {
     <NavbarClient>
       <NavbarServer />
     </NavbarClient>
-
   
     <main className='h-screen'>
       <div className='w-screen h-screen mainBG flex justify-center items-center'>
