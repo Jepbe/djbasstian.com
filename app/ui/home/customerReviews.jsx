@@ -7,7 +7,7 @@ export default function customerReviews() {
     <>
         <div className="h-screen flex sm:flex-row flex-col justify-center items-center text-[#ffff]">
 
-            <div itemProp="review" itemScope itemType="https://schema.org/Review" className="py-2 px-3 sm:p-10 cardBg m-2 rounded-sm max-w-sm">
+            <div itemProp="review" itemScope itemType="https://schema.org/Review" className="py-2 px-3 sm:p-10 cardBg m-2 rounded-sm max-w-md">
                 <div className="flex">
                     <div>
                         <Image 
@@ -39,11 +39,11 @@ export default function customerReviews() {
                 </div>
             </div>
 
-            <div className="py-2 px-3 sm:p-10 cardBg m-2 rounded-sm max-w-sm">
+            <div className="py-2 px-3 sm:p-10 cardBg m-2 rounded-sm max-w-md">
                 <div className="flex ">
                     <div>
                         <Image 
-                            src="/profile1.jpg" 
+                            src="/pers_2.jpeg"  
                             width={100} 
                             height={100} 
                             alt=""
@@ -52,21 +52,20 @@ export default function customerReviews() {
                     </div>
                     <div className="flex items-center">
                         <ul className="ml-4">
-                            <li>KOMMER SNART</li>
-                            <li>KOMMER SNART</li>
-                            <li className="flex flex-row text-orange-400 text-xl"> <IoMdStarOutline  /><IoMdStarOutline  /><IoMdStarOutline  /><IoMdStarOutline  /><IoMdStarOutline  /></li>
+                            <li>Kevin Nielsen</li>
+                            <li>Leder Miaribo ungdomsskole</li>
+                            <li className="flex flex-row text-orange-400 text-xl"> <IoMdStar /><IoMdStar /><IoMdStar /><IoMdStar /><IoMdStar /></li>
                         </ul>
                     </div>
                 </div>
                 <div className="mt-4">
                     <p className="font-thin">
-                        <strong className="font-bold">Lorem, ipsum dolor sit amet consectetur adipisic elit. </strong> 
-                        Voluptatum maxime nemo corrupti soluta expedita eligendi nisi quos. Quisquam, voluptatem vel?
+                        Jeg har brugt Dj Basstian til en del events efterhånden i Lollands ungdomsskole. Store som små. <strong className="font-bold">Fælles for dem alle sammen er at han har skabt en kæmpe fest, hvergang.</strong> Jeg er kæmpe imponeret over tempoet og hvordan han altid formår at få alle med. Derudover er han noget af det rareste menneske, altid sød, imødekommende og nede på jorden. Det så fed. Jeg ringer næste gang igen.
                     </p>
                     
                 </div>
             </div>
-            <div className="py-2 px-3 sm:p-10 cardBg m-2 rounded-sm max-w-sm">
+            <div className="py-2 px-3 sm:p-10 cardBg m-2 rounded-sm max-w-md">
                 <div className="flex ">
                     <div>
                         <Image 
@@ -79,16 +78,15 @@ export default function customerReviews() {
                     </div>
                     <div className="flex items-center">
                         <ul className="ml-4">
-                            <li>KOMMER SNART</li>
-                            <li>KOMMER SNART</li>
-                            <li className="flex flex-row text-orange-400 text-xl"> <IoMdStarOutline  /><IoMdStarOutline  /><IoMdStarOutline  /><IoMdStarOutline  /><IoMdStarOutline  /></li>
+                            <li>Oliver Skov Kofod</li>
+                            
+                            <li className="flex flex-row text-orange-400 text-xl"> <IoMdStar /><IoMdStar /><IoMdStar /><IoMdStar /><IoMdStar /></li>
                         </ul>
                     </div>
                 </div>
                 <div className="mt-4">
                     <p className="font-thin">
-                        <strong className="font-bold">Lorem, ipsum dolor sit amet consectetur adipisic elit. </strong> 
-                        Voluptatum maxime nemo corrupti soluta expedita eligendi nisi quos. Quisquam, voluptatem vel?
+                    Jeg blev overrasket af DJ Bastian til min konfirmation i går, han spiller noget godt musik, og kan få festen til at gå i gang, lige så snart han begynder at spille, så hyppede det alle gæsterne op og så startede festen rigtigt. Kan klart anbefale ham han er virkelig sød osv helt klart pengene vær! 
                     </p>
                 </div>
             </div>
