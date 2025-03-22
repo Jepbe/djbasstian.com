@@ -69,11 +69,11 @@ export default function customerReviews() {
                 <div className="flex ">
                     <div>
                         <Image 
-                            src="/profile1.jpg" 
+                            src="/profile3.svg" 
                             width={100} 
                             height={100} 
                             alt=""
-                            className="rounded-full w-20 sm:w-[100px]"
+                            className="rounded-full w-20 sm:w-[100px] bg-white"
                             />
                     </div>
                     <div className="flex items-center">
