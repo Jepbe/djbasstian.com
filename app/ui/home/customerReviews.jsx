@@ -5,7 +5,7 @@ import { IoMdStar, IoMdStarOutline   } from 'react-icons/io';
 export default function customerReviews() {
     return (
     <>
-        <div className="h-screen flex sm:flex-row flex-col justify-center items-center text-[#ffff]">
+        <div className="h-screen flex sm:flex-row flex-col sm:justify-center sm:items-center justify-start text-[#ffff]">
 
             <div itemProp="review" itemScope itemType="https://schema.org/Review" className="py-2 px-3 sm:p-10 cardBg m-2 rounded-sm max-w-md">
                 <div className="flex">
