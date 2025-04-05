@@ -1,13 +1,24 @@
+"use client"
 import Image from "next/image";
 import './homeBtn.css'
 import { IoMdStar, IoMdStarOutline   } from 'react-icons/io';
+import { motion } from 'framer-motion';
 
 export default function customerReviews() {
     return (
     <>
-        <div className="h-screen flex sm:flex-row flex-col sm:justify-center sm:items-center justify-start text-[#ffff]">
+        <div className="flex sm:flex-row flex-col sm:justify-center sm:items-center justify-start text-[#ffff]">
 
-            <div itemProp="review" itemScope itemType="https://schema.org/Review" className="py-2 px-3 sm:p-10 cardBg m-2 rounded-sm max-w-md">
+            <motion.div 
+                itemProp="review" 
+                itemScope 
+                itemType="https://schema.org/Review" 
+                className="py-2 px-3 sm:p-10 cardBg m-2 rounded-sm max-w-md"
+                initial={{ x: -100, opacity: 0 }}
+                whileInView={{ x: 0, opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5 }}
+            >
                 <div className="flex">
                     <div>
                         <Image 
@@ -37,9 +48,15 @@ export default function customerReviews() {
                     </p>
                     
                 </div>
-            </div>
+            </motion.div>
 
-            <div className="py-2 px-3 sm:p-10 cardBg m-2 rounded-sm max-w-md">
+            <motion.div 
+                className="py-2 px-3 sm:p-10 cardBg m-2 rounded-sm max-w-md"
+                initial={{ x: 100, opacity: 0 }}
+                whileInView={{ x: 0, opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5 }}
+            >
                 <div className="flex ">
                     <div>
                         <Image 
@@ -64,8 +81,14 @@ export default function customerReviews() {
                     </p>
                     
                 </div>
-            </div>
-            <div className="py-2 px-3 sm:p-10 cardBg m-2 rounded-sm max-w-md">
+            </motion.div>
+            <motion.div 
+                className="py-2 px-3 sm:p-10 cardBg m-2 rounded-sm max-w-md"
+                initial={{ x: 100, opacity: 0 }}
+                whileInView={{ x: 0, opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5 }}
+            >
                 <div className="flex ">
                     <div>
                         <Image 
@@ -89,7 +112,7 @@ export default function customerReviews() {
                     Jeg blev overrasket af DJ Bastian til min konfirmation i går, han spiller noget godt musik, og kan få festen til at gå i gang, lige så snart han begynder at spille, så hyppede det alle gæsterne op og så startede festen rigtigt. Kan klart anbefale ham han er virkelig sød osv helt klart pengene vær! 
                     </p>
                 </div>
-            </div>
+            </motion.div>
         </div>
     </>
     );

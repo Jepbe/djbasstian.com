@@ -25,7 +25,7 @@ export default function Page() {
           </div>  
       </div>
     </main>
-    <section className='h-screen screen2Bg'>
+    <section className='screen2Bg'>
         <CustomerReviews />
     </section>
     
