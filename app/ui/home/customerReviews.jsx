@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 export default function customerReviews() {
     return (
     <>
-        <div className="flex sm:flex-row flex-col sm:justify-center sm:items-center justify-start text-[#ffff]">
+        <div className="flex sm:flex-row flex-col sm:justify-center sm:items-center justify-start items-center text-[#ffff] min-h-screen py-10 overflow-x-hidden w-full">
 
             <motion.div 
                 itemProp="review" 

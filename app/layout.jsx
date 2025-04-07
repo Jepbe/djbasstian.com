@@ -36,7 +36,7 @@ export const metadata = {
 export default function DashboardLayout({ children }) {
 
   return ( 
-    <html lang="en">
+    <html lang="da">
       <body className={`${ubuntu.className} antialiased`}>{children}</body>
     </html> 
     );
