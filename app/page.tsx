@@ -1,3 +1,4 @@
+import React from 'react';
 import NavbarServer from './ui/navbar/navbar-server'
 import NavbarClient from './ui/navbar/navbar-client'
 import Link from 'next/link'
@@ -5,7 +6,7 @@ import './ui/home/homeBtn.css'
 import CustomerReviews from './ui/home/customerReviews'
 import ScrollArrow from './ui/scrollArrow'
 
-export default function Page() {
+export default function Page(): React.ReactElement {
   return ( 
 <>
     <meta name="google-site-verification" content="U10HjTEK_wSci7CA2rqQzo3BV7v1HNlSG8nsUAKWUAI" />
@@ -48,4 +49,4 @@ export default function Page() {
     </section>
 </>
   )
-}
+} 

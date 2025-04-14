@@ -42,7 +42,7 @@ export default function Page() {
                             src="https://open.spotify.com/embed/track/7krTD6Ke38yMuUJlqkIXNk?utm_source=generator" 
                             height="352" 
                             frameBorder="0" 
-                            allowFullScreen="" 
+                            allowFullScreen={true} 
                             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
                             loading="lazy"
                             title="DJ BASStian Track 1 on Spotify"
@@ -56,7 +56,7 @@ export default function Page() {
                             src="https://open.spotify.com/embed/track/4kJPoLW1foJ3x7u8PvzF7T?utm_source=generator" 
                             height="352" 
                             frameBorder="0" 
-                            allowFullScreen="" 
+                            allowFullScreen={true} 
                             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
                             loading="lazy"
                             title="DJ BASStian Track 2 on Spotify"

@@ -1,11 +1,13 @@
 import './ui/globals.css';
 import { Ubuntu } from 'next/font/google'
+import { ReactNode } from 'react';
+import { Providers } from './providers';
+
 
 const ubuntu = Ubuntu({
   weight: ['300', '400', '500', '700'],
   subsets: ['latin'],
 })
-
 
 export const metadata = {
   title: "DJ BASStian | DJ til din næste fest!",
@@ -32,12 +34,16 @@ export const metadata = {
   }  
 };
 
+interface DashboardLayoutProps {
+  children: ReactNode;
+}
 
-export default function DashboardLayout({ children }) {
-
+export default function DashboardLayout({ children }: DashboardLayoutProps) {
   return ( 
     <html lang="da">
-      <body className={`${ubuntu.className} antialiased`}>{children}</body>
+      <body className={`${ubuntu.className} antialiased`}>
+        <Providers>{children}</Providers>
+      </body>
     </html> 
     );
-}
+} 

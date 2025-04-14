@@ -5,11 +5,13 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import bassLogo from '../../../public/bass_logo_1_hvid.png'
 import { FaInstagram, FaSoundcloud, FaYoutube, FaTiktok } from 'react-icons/fa';
+import { useSession, signOut } from "next-auth/react";
 
 
-export default function NavbarClient({ children }) {
+export default function NavbarClient({ children }: { children: React.ReactNode }) {
     const [navbar, setNavbar] = useState( false );
     const [color, setColor] = useState( false );
+    const { data: session } = useSession();
 
     useEffect(() => {
         const changeBackground = () => {
@@ -52,13 +54,29 @@ export default function NavbarClient({ children }) {
                     </Link>   
                     <ul className={"hidden md:flex flex-col ml-10 text-[16px] md:flex-row gap-9 items-center"}> 
                         { children } 
+                        {session && (
+                            <li className="drop-shaddow navbar-links font-bold">
+                                <button onClick={() => signOut()} className="text-white hover:text-[#6b72ff]">
+                                    Log ud
+                                </button>
+                            </li>
+                        )}
                     </ul>
                 </ul>
 
+                {session && (
+                <ul className={`md:hidden md:ml-[-1rem] mt-0 flex flex-col w-screen justify-center h-[90vh] bg-[hsla(0,0%,100%,.95)] text-gray-700   00 font-medium text-[26px] md:flex-row gap-9 items-center ${navbar ? 'flex' : 'hidden'}`}>
+                    { children }
+                    <li className="drop-shaddow navbar-links font-bold"><button onClick={() => signOut()}>Log ud</button></li> 
+                </ul>
+                )}
                 
+                {!session && (
                 <ul className={`md:hidden md:ml-[-1rem] mt-0 flex flex-col w-screen justify-center h-[90vh] bg-[hsla(0,0%,100%,.95)] text-gray-700   00 font-medium text-[26px] md:flex-row gap-9 items-center ${navbar ? 'flex' : 'hidden'}`}>
                     { children }
                 </ul>
+                )}
+                
 
                 <ul className={`hidden md:flex flex-col mr-6 text-[16px] md:flex-row gap-1 items-center`}>
                     <li className="ml-2">
