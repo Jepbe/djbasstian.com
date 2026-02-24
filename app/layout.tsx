@@ -1,7 +1,6 @@
 import './ui/globals.css';
 import { Ubuntu } from 'next/font/google'
 import { ReactNode } from 'react';
-import { Providers } from './providers';
 
 
 const ubuntu = Ubuntu({
@@ -42,7 +41,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
   return ( 
     <html lang="da">
       <body className={`${ubuntu.className} antialiased`}>
-        <Providers>{children}</Providers>
+        {children}
       </body>
     </html> 
     );
